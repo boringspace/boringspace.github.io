@@ -1,4 +1,4 @@
-# PowerbI Tutorial
+# PowerBI Tutorial
 
 
 Some Information to Power BI
