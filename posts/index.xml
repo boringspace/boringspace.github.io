@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - &gt;_</title>
+        <link>https://example.com/posts/</link>
+        <description>All Posts | &gt;_</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 14 Dec 2020 20:35:55 &#43;0100</lastBuildDate><atom:link href="https://example.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>PowerBI Desktop</title>
+    <link>https://example.com/powerbi-desktop/</link>
+    <pubDate>Mon, 14 Dec 2020 20:35:55 &#43;0100</pubDate>
+    <author>perezre</author>
+    <guid>https://example.com/powerbi-desktop/</guid>
+    <description><![CDATA[<p>An Introduction and reference document for PowerBI Desktop</p>]]></description>
+</item></channel>
+</rss>

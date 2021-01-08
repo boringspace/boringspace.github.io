@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>PowerBI Desktop | </title><meta name="Description" content="About uBlogger Theme"><meta property="og:title" content="PowerBI Desktop" />
+<meta property="og:description" content="An Introduction and reference document for PowerBI Desktop" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/powerbi-desktop/" />
+<meta property="og:image" content="https://example.com/logo.png"/>
+<meta property="article:published_time" content="2020-12-14T20:35:55+01:00" />
+<meta property="article:modified_time" content="2021-01-04T20:35:55+01:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://example.com/logo.png"/>
+
+<meta name="twitter:title" content="PowerBI Desktop"/>
+<meta name="twitter:description" content="An Introduction and reference document for PowerBI Desktop"/>
+<meta name="application-name" content="uBlogger">
+<meta name="apple-mobile-web-app-title" content="uBlogger"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://example.com/powerbi-desktop/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "PowerBI Desktop",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/example.com\/powerbi-desktop\/"
+        },"image": ["https:\/\/example.com\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "PowerBi, Desktop","wordCount":  1328 ,
+        "url": "https:\/\/example.com\/powerbi-desktop\/","datePublished": "2020-12-14T20:35:55+01:00","dateModified": "2021-01-04T20:35:55+01:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": "https:\/\/example.com\/images\/avatar.png"},"author": {
+                "@type": "Person",
+                "name": "perezre"
+            },"description": ""
+    }
+    </script><script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https:\/\/example.com"
+        },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "PowerBI",
+            "item": "https://example.com/categories/powerbi/"
+        },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "PowerBI Desktop"
+            }]
+    }
+</script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="&gt;_" class="header-logo">&gt;_</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/categories/powerbi/"> PowerBI </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="&gt;_" class="header-logo">&gt;_</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/categories/powerbi/" title="">PowerBI</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main"><div class="container content-article"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single page-toc theme-classic"><div class="post-all-meta  padding-article ">
+                <div class="breadcrumbs">
+    <a href="/">Home </a>/ <a href="/categories/powerbi/">PowerBI </a>/ <a href="/"> PowerBI Desktop </a>
+</div>
+                    <h1 class="single-title animated flipInX">PowerBI Desktop</h1><div class="post-meta">
+                        <div class="post-meta-line"><span class="post-category">
+                                <a href="/categories/powerbi/"><i class="far fa-folder fa-fw"></i>&nbsp;PowerBI</a>
+                            </span>&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time class="timeago" datetime="2020-12-14">2020-12-14</time>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1328 words
+                            &nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;7 minutes</div>
+                    </div>
+                </div><div class="post"><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction-powerbi-desktop">Introduction PowerBI Desktop</a>
+      <ul>
+        <li><a href="#meet-power-bi">Meet Power BI</a></li>
+        <li><a href="#why-power-bi">Why Power BI</a></li>
+        <li><a href="#power-bi-vs-power-excel">Power BI vs Power Excel</a></li>
+        <li><a href="#the-power-bi-interface">The Power BI Interface</a></li>
+        <li><a href="#the-power-bi-workflow">The Power BI Workflow</a></li>
+        <li><a href="#helpful-resources">Helpful Resources</a></li>
+      </ul>
+    </li>
+    <li><a href="#connecting-and-shaping-data">Connecting and Shaping Data</a>
+      <ul>
+        <li><a href="#types-of-data-conecctors">Types of Data Conecctors</a></li>
+        <li><a href="#query-editor">Query Editor</a></li>
+        <li><a href="#query-editing-tools">Query Editing Tools</a></li>
+        <li><a href="#basic-table-tranformations">Basic Table Tranformations</a></li>
+        <li><a href="#text-specific-tools">Text-Specific Tools</a></li>
+        <li><a href="#number-specific-tools">Number-Specific Tools</a></li>
+        <li><a href="#data-specific-tools">Data-Specific Tools</a></li>
+        <li><a href="#creating-a-basic-calendar-table">Creating a Basic Calendar Table</a></li>
+        <li><a href="#pro-tip-creating-a-rolling-calendar">PRO TIP Creating a Rolling Calendar</a></li>
+        <li><a href="#adding-index-columns">Adding Index Columns</a></li>
+        <li><a href="#adding-conditional-columns">Adding Conditional Columns</a></li>
+        <li><a href="#grouping--aggregating-data">Grouping &amp; Aggregating Data</a></li>
+        <li><a href="#grouping--aggregating-data-advanced">Grouping &amp; Aggregating Data Advanced</a></li>
+        <li><a href="#pivoting--unpivoting">Pivoting &amp; Unpivoting</a></li>
+        <li><a href="#merging-queries">Merging Queries</a></li>
+        <li><a href="#appending-queries">Appending Queries</a></li>
+        <li><a href="#data-source-settings">Data Source Settings</a></li>
+        <li><a href="#modifying-queries">Modifying Queries</a></li>
+        <li><a href="#refreshing-queries">Refreshing Queries</a></li>
+        <li><a href="#defining-data-categories">Defining Data Categories</a></li>
+        <li><a href="#defining-hierarchies">Defining Hierarchies</a></li>
+        <li><a href="#pro-tip-importing-models-from-excel">PRO TIP: Importing Models From Excel</a></li>
+        <li><a href="#best-practice-connecting--shaping-data">Best Practice: Connecting &amp; Shaping Data</a></li>
+      </ul>
+    </li>
+    <li><a href="#creating-a-data-model">Creating a Data Model</a></li>
+    <li><a href="#adding-calculated-fields-with-dax">Adding Calculated Fields with DAX</a></li>
+    <li><a href="#visualizing-data-with-reports">Visualizing Data with Reports</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content" style="padding-top: 20px"><span class="post-update">
+                    <b>Updated on 2021-01-04</b>
+                </span><p>An Introduction and reference document for PowerBI Desktop</p>
+<h1 id="powerbi">PowerBI</h1>
+<h2 id="introduction-powerbi-desktop">Introduction PowerBI Desktop</h2>
+<div class="details admonition abstract">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-list-ul fa-fw"></i>Abstract<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Installing PowerBI, exploring the PowerBI workflow, comparingn PowerBI vs. Excel.</div>
+        </div>
+    </div>
+<h3 id="meet-power-bi">Meet Power BI</h3>
+<p><strong>Image:</strong> <em>Magic Quadrant for Analytics and Business Intelligence Plattforms</em></p>
+<p>Power BI is a standalone Microsoft business intelligence product, which includes both desktop and web-based applications for loading, modeling, and visualizing data</p>
+<p>More information at <a href="powerbi.microsoft.com" rel="">powerbi.microsoft.com</a></p>
+<h3 id="why-power-bi">Why Power BI</h3>
+<ul>
+<li>Connect, transform and analyze <em>millions</em> of rows of data
+<ul>
+<li>Access data from virtually anywhere (database tables, flat files, cloud services, folders, etc), and create fully automated data shaping and loading (ETL) procedures</li>
+</ul>
+</li>
+<li>Build relational models to blent data from multiple sources
+<ul>
+<li>Create table relationship to analyze holistic performance across an entire data model</li>
+</ul>
+</li>
+<li>Define complex calculations using Data Analysis Expressions (DAX)
+<ul>
+<li>Enhance datasets and enable advanced analytics with powerful and portable DAX expressions</li>
+</ul>
+</li>
+<li>Visualize data with interactive reports and dashboards
+<ul>
+<li>Build custom business intelligence tools with best-in-class visualization and dashboard features</li>
+</ul>
+</li>
+<li>Power BI is the industry leader among BI platforms
+<ul>
+<li>Microsoft Power BI is intuitive, powerful and FREE to get started</li>
+</ul>
+</li>
+</ul>
+<h3 id="power-bi-vs-power-excel">Power BI vs Power Excel</h3>
+<p>Power Excel and Power BI are built on top of the <strong>exact same engine!</strong></p>
+<ul>
+<li>Power BI takes the same data shaping, modeling and analytics capabilities and adds <strong>new reporting and publishing tools</strong></li>
+<li>Transitioning is easy; one can import an <strong>entire data model</strong> directly from Excel!</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Power Excel</th>
+<th></th>
+<th style="text-align:left">Power BI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">PivotTables</td>
+<td>Data Shaping</td>
+<td style="text-align:left">Report View</td>
+</tr>
+<tr>
+<td style="text-align:left">PivotCharts</td>
+<td>Data Modeling</td>
+<td style="text-align:left">Custom Visualization Tools</td>
+</tr>
+<tr>
+<td style="text-align:left">Power Map/ PowerView</td>
+<td>Calculated Fields</td>
+<td style="text-align:left">Publishing &amp; Collaboration Options</td>
+</tr>
+</tbody>
+</table>
+<h3 id="the-power-bi-interface">The Power BI Interface</h3>
+<p><strong>Three Core Views:</strong></p>
+<ul>
+<li>Report</li>
+<li>Data</li>
+<li>Relationship</li>
+</ul>
+<h3 id="the-power-bi-workflow">The Power BI Workflow</h3>
+<ol>
+<li>Connect, shape and tranform raw <strong>data</strong></li>
+<li>Build table <strong>relationships</strong> to tie sources together</li>
+<li>Design interactive <strong>reports</strong> to explore and visualize data</li>
+</ol>
+<h3 id="helpful-resources">Helpful Resources</h3>
+<p>The Microsoft Power BI blog publishes monthly summaries to showcase new features
+<a href="https://powerbi.microsoft.com/en-us/blog/" target="_blank" rel="noopener noreffer">Microsoft Power BI blog</a></p>
+<p>The Mircosoft Power BI YouTube Channel publishes demos, feature summaries, and advanced tutorials
+<a href="https://www.youtube.com/user/mspowerbi" target="_blank" rel="noopener noreffer">Microsoft Power BI YouTube Channel</a></p>
+<p><a href="https://www.youtube.com/c/GuyinaCube/videos" target="_blank" rel="noopener noreffer">Guy in a Cube</a></p>
+<p>Power BI User Group are communities of users, which include both local meet-ups and helpful online forms
+<a href="https://www.pbiusergroup.com/home" target="_blank" rel="noopener noreffer">Power BI User Groups</a></p>
+<h2 id="connecting-and-shaping-data">Connecting and Shaping Data</h2>
+<div class="details admonition abstract">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-list-ul fa-fw"></i>Abstract<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Connecting to source data, shaping and transforming tables, editing, merging and appending queries.</div>
+        </div>
+    </div>
+<h3 id="types-of-data-conecctors">Types of Data Conecctors</h3>
+<p>Power BI can connect to virtually <strong>any</strong> type of source data, includeing:</p>
+<ul>
+<li><strong>Flat files &amp; Folders</strong> (csv, text, xls, &hellip;)</li>
+<li><strong>Databases</strong> (SQL, Access, Oracle, IBM, Azure, &hellip;)</li>
+<li><strong>Online Services</strong> (Sharepoint, GitHub, Dynamics 365, Google Analytics, Salesforce, Power BI Service, &hellip;)</li>
+<li><strong>Others</strong> (Web feeds, R scripts, Spark, Hadoop, &hellip;)</li>
+</ul>
+<h3 id="query-editor">Query Editor</h3>
+<p>Top to bottom</p>
+<p><strong>Query Editing Tools</strong> (Table transformations, calculated columns, &hellip;)</p>
+<p><strong>Formular Bar</strong> (M code)</p>
+<p><strong>Query List</strong></p>
+<p><strong>Table Name &amp; Properties</strong></p>
+<p><strong>Table Name &amp; Properties</strong></p>
+<p><strong>Applied Steps</strong> (like a macro)</p>
+<h3 id="query-editing-tools">Query Editing Tools</h3>
+<p>The <em>HOME</em> tab includes <strong>general settings</strong> and <strong>common table transformation tools</strong></p>
+<p>The <em>TRANSFORM</em> tab includes tools to <strong>modify existing columns</strong> (splitting/grouping, transposing, extracting text, &hellip;)</p>
+<p>The <em>ADD COLUMN</em> tools <strong>create new columns</strong> (based on conditional rules, text operations, calculations, dates, &hellip;)</p>
+<h3 id="basic-table-tranformations">Basic Table Tranformations</h3>
+<ol>
+<li><strong>Choose or remove columns</strong>
+<div class="details admonition tip">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Use the <em>Remove Other Columns</em> option if one always want a specific set</div>
+        </div>
+    </div></li>
+<li><strong>Keep or removes rows</strong>
+<div class="details admonition tip">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Use the <em>Remove Duplicates</em> option to create a new loopup table from scratch</div>
+        </div>
+    </div></li>
+<li><strong>Sort values</strong> (A-Z, Low-High, &hellip;)</li>
+<li><strong>Change data type</strong> (date, $, %, text, &hellip;)</li>
+<li><strong>Promote header row</strong></li>
+<li><strong>Duplicate, move &amp; rename</strong> columns
+<div class="details admonition tip">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Right-click the column header to access common tools</div>
+        </div>
+    </div></li>
+</ol>
+<h3 id="text-specific-tools">Text-Specific Tools</h3>
+<ol>
+<li><strong>Split a text column</strong> based on either a specific delemiter or a number of characters</li>
+<li><strong>Format a text column</strong> to upper, lower or proper case, or add a prefix or suffix
+<div class="details admonition tip">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Use <em>Trim</em> to eliminate leading &amp; trailing spaces, or <em>Clean</em> to remove non-printable characters</div>
+        </div>
+    </div></li>
+<li><strong>Extract characters from a text</strong> based on fixed lengths, first/last, ranges or delimiters
+<div class="details admonition tip">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Select two or more columns to <strong>merge</strong> (or <strong>concatenate</strong>) fields</div>
+        </div>
+    </div></li>
+</ol>
+<div class="details admonition warning">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Warning<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">One can access many of these tools in both the <strong>Transform</strong> and <strong>Add Column</strong> menus.
+The difference is whether one want to <strong>add a new column</strong> or <strong>modify an existing one</strong></div>
+        </div>
+    </div>
+<h3 id="number-specific-tools">Number-Specific Tools</h3>
+<ol>
+<li><strong>Statistics functions</strong> allow one to evaluate basic stats for the selected column basic stats for the selected column (sum, min/max, average, count, countdistinct, ..)
+<div class="details admonition note">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">These tools return a <em>SINGLE</em> vlaue, and are commonly used to explore a table rather than prepare it for loading</div>
+        </div>
+    </div></li>
+<li><strong>Standard, Scientific</strong> and <strong>Trigonometry</strong> tools allow one to apply standard operations (addition, multiplicatino, division, &hellip;) or more advanced calculations (power, logarith, sine, tangent, &hellip;) to each value in a column
+<div class="details admonition note">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Unlike the statistics options, these tools are applied to each individual row in the table</div>
+        </div>
+    </div></li>
+<li><strong>Information</strong> tools allow one to define binary flags (TRUE/FALSE or 1/0) to mark each row in a column as even, odd positive or negative</li>
+</ol>
+<h3 id="data-specific-tools">Data-Specific Tools</h3>
+<ol>
+<li><strong>Date &amp; Time</strong> tools are relatively straight-forward, and include the following options:
+<ul>
+<li><strong>Age:</strong> Difference between the current time and the date in each row</li>
+<li><strong>Date Only:</strong> Removes the time component of a data/time field</li>
+<li><strong>Year/Month/Quarter/Week/Day:</strong> Extracts individual components from a date field (Time-specific options include Hour, Minute, Second, &hellip;)</li>
+<li><strong>Earliest/Latest:</strong> Evaluates the earliest or latest date from a column as single value (can only be accessed from the <em>Transform</em> menu)
+<div class="details admonition note">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">One will almost always want to perform these operations from the <em>Add Column</em> menu to build out new fields, rather than transforming an individual date/time column</div>
+        </div>
+    </div></li>
+</ul>
+</li>
+</ol>
+<div class="details admonition success">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw"></i>Pro<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Load up a table containing a <strong>single date column</strong> and use Date tools to buld out an <strong>entire calendar table</strong></div>
+        </div>
+    </div>
+<h3 id="creating-a-basic-calendar-table">Creating a Basic Calendar Table</h3>
+<p>Use pre-defined <strong>Date</strong> options in the <em>Add Column</em> menu to quickly build out a calendar table out a calendar table from a list of dates</p>
+<h3 id="pro-tip-creating-a-rolling-calendar">PRO TIP Creating a Rolling Calendar</h3>
+<ol>
+<li>Create a new, blank query (<strong>Get Data</strong> &gt; <strong>Blank Query</strong> or <strong>New Source</strong> &gt; <strong>Blank Query</strong>)</li>
+<li>In the formula bar, generate a starting date by entering a <strong>literal</strong> (in YYYY, MM, DD format)</li>
+<li>Click the <strong>fX</strong> icon to add a new custom step, and enter the following formula exactly as shown</li>
+<li>Convert the resulting list into a Table (<strong>List Tools</strong> &gt; <strong>To Table</strong>) and format the column as a <strong>Date</strong></li>
+<li>Add calculated Date columns (Year, Month, Week, &hellip;) as necessary using the <strong>Add Column</strong> tools</li>
+</ol>
+<h3 id="adding-index-columns">Adding Index Columns</h3>
+<ol>
+<li>
+<p><strong>Index Columns</strong> contain a list of sequential values that can be used to identify each unique row in a table (typically starting from 0 or 1)</p>
+<p>These columns are often used to create <strong>unique IDs</strong> that can be used to form relationships between tables</p>
+</li>
+</ol>
+<h3 id="adding-conditional-columns">Adding Conditional Columns</h3>
+<ol>
+<li>
+<p><strong>Conditional Columns</strong> allow one to define new fields based on logical rules and conditions (IF/THEN statements)</p>
+<p>In a case one can create a new conditional column called <em>QuantityType</em>, which depends on the values in the <em>OrderQuantity</em> column, as follows:</p>
+<ul>
+<li>If OrderQuantity = 1, QuantityType = <strong>Single Item</strong></li>
+<li>If OrderQuantity &gt;1, QuantityType = <strong>Multiple Items</strong></li>
+<li>Otherwise QuantityType = <strong>Other</strong></li>
+</ul>
+</li>
+</ol>
+<h3 id="grouping--aggregating-data">Grouping &amp; Aggregating Data</h3>
+<ol>
+<li><strong>Group By</strong> allows one to aggregate the data at a different level (i.e. transform daily data into monthly, roll up transaction-level data by sotre, &hellip;)</li>
+</ol>
+<p>In a case one can transform a daily, transaction-level table into a summary of <em>TotalQuantity</em> rolled up by <em>ProductKey</em></p>
+<div class="details admonition note">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Any field not specified in the Group By settings are lost</div>
+        </div>
+    </div>
+<h3 id="grouping--aggregating-data-advanced">Grouping &amp; Aggregating Data Advanced</h3>
+<p>This time one transform the daily transaction-level table into a summary of <em>TotalQuantity</em> aggregated by both <em>ProductKey</em> and <em>CustomerKey</em> (using the advanced option in the dialog box)</p>
+<div class="details admonition note">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">This is similar to creating a PivotTable in Excel and pulling in <em>Sum of OrderQuantity</em> with <em>ProductKey</em> and <em>CustomerKey</em> as row labels</div>
+        </div>
+    </div>
+<h3 id="pivoting--unpivoting">Pivoting &amp; Unpivoting</h3>
+<h3 id="merging-queries">Merging Queries</h3>
+<h3 id="appending-queries">Appending Queries</h3>
+<h3 id="data-source-settings">Data Source Settings</h3>
+<h3 id="modifying-queries">Modifying Queries</h3>
+<h3 id="refreshing-queries">Refreshing Queries</h3>
+<h3 id="defining-data-categories">Defining Data Categories</h3>
+<h3 id="defining-hierarchies">Defining Hierarchies</h3>
+<h3 id="pro-tip-importing-models-from-excel">PRO TIP: Importing Models From Excel</h3>
+<h3 id="best-practice-connecting--shaping-data">Best Practice: Connecting &amp; Shaping Data</h3>
+<h2 id="creating-a-data-model">Creating a Data Model</h2>
+<div class="details admonition abstract">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-list-ul fa-fw"></i>Abstract<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Building relational models, creating table relationships, understanding cardinality, exploring filter flow.</div>
+        </div>
+    </div>
+<h2 id="adding-calculated-fields-with-dax">Adding Calculated Fields with DAX</h2>
+<div class="details admonition abstract">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-list-ul fa-fw"></i>Abstract<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Understanding DAX syntax, adding calculated columns and measures, writing common formulas and functions.</div>
+        </div>
+    </div>
+<h2 id="visualizing-data-with-reports">Visualizing Data with Reports</h2>
+<div class="details admonition abstract">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-list-ul fa-fw"></i>Abstract<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Inserting charts and visuals, customizing formats, editing interactions, applying filters and bookmarks.</div>
+        </div>
+    </div></div><div class="post-info-share">
+    <span><a class="share-icon share-twitter" href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://example.com/powerbi-desktop/" data-title="PowerBI Desktop" data-via="xxxx" data-hashtags="PowerBi,Desktop"><i class="fab fa-twitter fa-fw"></i></a><a class="share-icon share-facebook" href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://example.com/powerbi-desktop/" data-hashtag="PowerBi"><i class="fab fa-facebook-square fa-fw"></i></a><a class="share-icon share-line" href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://example.com/powerbi-desktop/" data-title="PowerBI Desktop"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a class="share-icon share-weibo" href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://example.com/powerbi-desktop/" data-title="PowerBI Desktop"><i class="fab fa-weibo fa-fw"></i></a></span>
+</div>
+<div class="footer-post-author"style="border-radius: 10px;border-bottom: solid 2px #ececec">
+    <div class="author-avatar"><a href="https://boringspace.github.io" target="_blank"><img alt="" src="https://res.cloudinary.com/dropify/image/upload/v1609772511/vishnu-mohanan-pfR18JNEMv8-unsplash_cropped_hcdnqm.png" border="0"></a></div>
+    <div class="author-info">
+        <div class="name"><a href="https://boringspace.github.io" target="_blank">RP</a></div>
+        <div class="number-posts">Researcher • Engineer • Maker</span></div>
+    </div>
+</div><div class="post-footer" id="post-footer"></div>
+</div>
+
+    </article><div class=" post-tags post-tags-toc "><a href="/tags/powerbi/" class="tag">PowerBi</a><a href="/tags/desktop/" class="tag">Desktop</a></div><div class=" page single comments page-toc "><div id="comments"><div id="remark42" class="comment" style="padding-top: 1.5rem"></div>
+            <script>
+                var themeRemark = document.body.getAttribute('theme')
+                var remark_config = {
+                    host: 'https:\/\/comments.upagge.ru',
+                    site_id: 'documentation',
+                    components: ['embed'],
+                    theme: themeRemark,
+                    locale: 'en',
+                    show_email_subscription: '',
+                    page_title: 'PowerBI Desktop'
+                };
+
+                (function(c) {
+                    for(var i = 0; i < c.length; i++){
+                        var d = document, s = d.createElement('script');
+                        s.src = remark_config.host + '/web/' +c[i] +'.js';
+                        s.defer = true;
+                        (d.head || d.body).appendChild(s);
+                    }
+                })(remark_config.components || ['embed']);
+            </script></div></div></div></main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.79.1">Hugo</a> | Theme - <a href="https://github.com/upagge/uBlogger" target="_blank" rel="noopener noreffer" title="uBlogger 1.2.0"><i class="far fa-kiss-wink-heart fa-fw"></i> uBlogger</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span>2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://boringspace.github.io" target="_blank">&gt;_</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lunr@2.3.8/lunr.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script>window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script src="/js/theme.min.js"></script><script src="/js/jquery-3.5.1.min.js"></script>
+    <script>
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym("70532758", "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/69594475" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    </body>
+</html>
