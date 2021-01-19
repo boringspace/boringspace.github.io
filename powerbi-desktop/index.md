@@ -120,7 +120,7 @@ Use the *Remove Other Columns* option if one always want a specific set
 {{< /admonition >}}
 2. **Keep or removes rows**
 {{< admonition type=tip title="Tip" open=false >}}
-Use the *Remove Duplicates* option to create a new loopup table from scratch
+Use the *Remove Duplicates* option to create a new lookup table from scratch
 {{< /admonition >}}
 3. **Sort values** (A-Z, Low-High, ...)
 4. **Change data type** (date, $, %, text, ...)

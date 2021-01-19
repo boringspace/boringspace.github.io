@@ -2,14 +2,13 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://example.com/</loc><lastmod>2021-01-08T14:00:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://example.com/categories/</loc><lastmod>2021-01-08T14:00:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://example.com/posts/</loc><lastmod>2021-01-08T14:00:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://example.com/tags/powerbi/</loc><lastmod>2021-01-08T14:00:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://example.com/categories/powerbi/</loc><lastmod>2021-01-08T14:00:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://example.com/powerbitutorial/</loc><lastmod>2021-01-08T14:00:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://example.com/tags/</loc><lastmod>2021-01-08T14:00:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://example.com/tags/tutorial/</loc><lastmod>2021-01-08T14:00:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://example.com/tags/desktop/</loc><lastmod>2021-01-04T20:35:55&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://example.com/powerbi-desktop/</loc><lastmod>2021-01-04T20:35:55&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://example.com/categories/code/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>https://openprod.tech/</loc><lastmod>2021-01-04T20:35:55&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://openprod.tech/categories/</loc><lastmod>2021-01-04T20:35:55&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://openprod.tech/tags/desktop/</loc><lastmod>2021-01-04T20:35:55&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://openprod.tech/posts/</loc><lastmod>2021-01-04T20:35:55&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://openprod.tech/tags/powerbi/</loc><lastmod>2021-01-04T20:35:55&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://openprod.tech/categories/powerbi/</loc><lastmod>2021-01-04T20:35:55&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://openprod.tech/powerbi-desktop/</loc><lastmod>2021-01-04T20:35:55&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://openprod.tech/tags/</loc><lastmod>2021-01-04T20:35:55&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://openprod.tech/categories/code/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://openprod.tech/categories/dynamik/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
