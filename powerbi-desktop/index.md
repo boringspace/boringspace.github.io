@@ -299,10 +299,6 @@ Hierarchies are groups of nested columns that reflect multiple levels of granula
 - For example, a **Geography** hierarchy might include **Country, State**, and **City** columns
 - Each hierarchy can be treated as a **single item** in tables and reports, allowing users to *drill up* and *drill down* through different levels of the hierarchy in a meaningful way.
 
-### PRO TIP: Importing Models From Excel
-
-### Best Practice: Connecting & Shaping Data
-
 ## Creating a Data Model
 
 {{< admonition type=abstract title="Abstract" open=false >}}
