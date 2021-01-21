@@ -28,7 +28,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/openprod.tech\/powerbi-desktop\/"
-        },"image": ["https:\/\/openprod.tech\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordCount":  1328 ,
+        },"image": ["https:\/\/openprod.tech\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordCount":  1764 ,
         "url": "https:\/\/openprod.tech\/powerbi-desktop\/","datePublished": "2020-12-14T20:35:55+01:00","dateModified": "2021-01-04T20:35:55+01:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": "https:\/\/openprod.tech\/images\/avatar.png"},"author": {
@@ -127,8 +127,8 @@
                     <h1 class="single-title animated flipInX">PowerBI Desktop</h1><div class="post-meta">
                         <div class="post-meta-line"><span class="post-category">
                                 <a href="/categories/powerbi/"><i class="far fa-folder fa-fw"></i>&nbsp;PowerBI</a>
-                            </span>&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time class="timeago" datetime="2020-12-14">2020-12-14</time>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1328 words
-                            &nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;7 minutes</div>
+                            </span>&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time class="timeago" datetime="2020-12-14">2020-12-14</time>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1764 words
+                            &nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;9 minutes</div>
                     </div>
                 </div><div class="post"><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -472,13 +472,97 @@ The difference is whether one want to <strong>add a new column</strong> or <stro
         </div>
     </div>
 <h3 id="pivoting--unpivoting">Pivoting &amp; Unpivoting</h3>
+<p><strong>Pivoting</strong> is a fancy way to describe the process of turning <strong>distingt row values</strong> into <strong>columns</strong> (<em>pivoting</em>)  or turning <strong>columns</strong> into <strong>rows</strong> (<em>unpivoting</em>)</p>
+<div class="details admonition tip">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Imagine that the table is on a hinge; pivoting is like rotating it from a <strong>vertical</strong> to a <strong>horizontal</strong> layout, and unpivoting is like rotating it from <strong>horizontal</strong> to <strong>vertical</strong></div>
+        </div>
+    </div>
+<div class="details admonition note">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><strong>Transpose</strong> works very similarly, but doesn&rsquo;t recognize unique values; instead the entire table is transformed so that each row becomes a column and vice versa</div>
+        </div>
+    </div>
 <h3 id="merging-queries">Merging Queries</h3>
+<p>Merging queries allows to <strong>join tables</strong> based on a common column (like VLOOKUP)</p>
+<div class="details admonition note">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Merging <strong>adds column</strong> to an existing table</div>
+        </div>
+    </div>
+<div class="details admonition warning">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Warning<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Just because one <strong>can</strong> merge tables doesn&rsquo;t mean one <strong>should</strong>.</p>
+<p>In general, it&rsquo;s better to keep tables separate and define <strong>relationships</strong> between them.</p>
+</div>
+        </div>
+    </div>
 <h3 id="appending-queries">Appending Queries</h3>
+<p>Appending queries allows one to <strong>combine</strong> (or <strong>stack</strong>) tables that share the exact same column structure and data types.</p>
+<div class="details admonition note">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Appending <strong>adds rows</strong> to an existing table</div>
+        </div>
+    </div>
+<div class="details admonition success">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw"></i>Pro<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Use the <strong>Folder</strong> option (Get Data &gt; More &gt; Folder) to append all files within a folder (assuming they share the same structure); as one add new files, simply refresh the query and they will automatically append!</div>
+        </div>
+    </div>
 <h3 id="data-source-settings">Data Source Settings</h3>
+<p>The Data <strong>Soruce Settings</strong> in the the Query Editor allow to manage data connections and permissions</p>
+<div class="details admonition warning">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Warning<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Connections to loval files reference the exact path</p>
+<p>If the file name or location changes, <strong>one will need to change the source and browse to the current version</strong></p>
+</div>
+        </div>
+    </div>
 <h3 id="modifying-queries">Modifying Queries</h3>
+<p>Select <strong>Edit Queries</strong> form the <strong>Home</strong> tab to launch the Query Editor</p>
+<p>Within the editor, view or modify existing queries in the <strong>Queries</strong> pane.</p>
+<p>Within each query, one can click each item within the <strong>Applied Steps</strong> pane to view each stage of the transformation, add new steps or delete existing ones, or modify individual steps by clicking the gear icons.</p>
 <h3 id="refreshing-queries">Refreshing Queries</h3>
+<p>By default, <strong>ALL</strong> queries in the model will refresh when one use the <em>Refresh</em> command from the <strong>Home</strong> tab</p>
+<p>From the Query Editor, uncheck <strong>Include in report refresh</strong> to exclude individual queries from the refresh</p>
+<div class="details admonition success">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw"></i>Pro<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Exclude queries that don&rsquo;t change often, like lookups or static data tables</div>
+        </div>
+    </div>
 <h3 id="defining-data-categories">Defining Data Categories</h3>
+<p>From the <strong>Modeling</strong> tab in the <strong>Data</strong> view, one can edit field properties to define specific categories</p>
+<p>This is commonly used to help Power BI accurately map location-based fields like <strong>addresses, countries, cities, latitude/longitude coordinates, zip codes</strong>, etc.</p>
 <h3 id="defining-hierarchies">Defining Hierarchies</h3>
+<p>Hierarchies are groups of nested columns that reflect multiple levels of granularity</p>
+<ul>
+<li>For example, a <strong>Geography</strong> hierarchy might include <strong>Country, State</strong>, and <strong>City</strong> columns</li>
+<li>Each hierarchy can be treated as a <strong>single item</strong> in tables and reports, allowing users to <em>drill up</em> and <em>drill down</em> through different levels of the hierarchy in a meaningful way.</li>
+</ul>
 <h3 id="pro-tip-importing-models-from-excel">PRO TIP: Importing Models From Excel</h3>
 <h3 id="best-practice-connecting--shaping-data">Best Practice: Connecting &amp; Shaping Data</h3>
 <h2 id="creating-a-data-model">Creating a Data Model</h2>

@@ -222,19 +222,82 @@ This is similar to creating a PivotTable in Excel and pulling in *Sum of OrderQu
 
 ### Pivoting & Unpivoting
 
+**Pivoting** is a fancy way to describe the process of turning **distingt row values** into **columns** (*pivoting*)  or turning **columns** into **rows** (*unpivoting*)
+
+{{<admonition tip "Tip" false>}}
+Imagine that the table is on a hinge; pivoting is like rotating it from a **vertical** to a **horizontal** layout, and unpivoting is like rotating it from **horizontal** to **vertical**
+{{</admonition>}}
+
+{{<admonition note "Note" false>}}
+**Transpose** works very similarly, but doesn't recognize unique values; instead the entire table is transformed so that each row becomes a column and vice versa
+{{</admonition>}}
+
 ### Merging Queries
+
+Merging queries allows to **join tables** based on a common column (like VLOOKUP)
+
+{{<admonition note "Note" false>}}
+Merging **adds column** to an existing table
+{{</admonition>}}
+
+{{<admonition warning "Warning" false>}}
+Just because one **can** merge tables doesn't mean one **should**.
+
+In general, it's better to keep tables separate and define **relationships** between them.
+{{</admonition>}}
 
 ### Appending Queries
 
+Appending queries allows one to **combine** (or **stack**) tables that share the exact same column structure and data types.
+
+{{<admonition note "Note" false>}}
+Appending **adds rows** to an existing table
+{{</admonition>}}
+
+{{<admonition success "Pro" false>}}
+Use the **Folder** option (Get Data > More > Folder) to append all files within a folder (assuming they share the same structure); as one add new files, simply refresh the query and they will automatically append!
+{{</admonition>}}
+
 ### Data Source Settings
+
+The Data **Soruce Settings** in the the Query Editor allow to manage data connections and permissions 
+
+{{<admonition warning "Warning" false>}}
+Connections to loval files reference the exact path
+
+If the file name or location changes, **one will need to change the source and browse to the current version**
+{{</admonition>}}
 
 ### Modifying Queries
 
+Select **Edit Queries** form the **Home** tab to launch the Query Editor
+
+Within the editor, view or modify existing queries in the **Queries** pane.
+
+Within each query, one can click each item within the **Applied Steps** pane to view each stage of the transformation, add new steps or delete existing ones, or modify individual steps by clicking the gear icons.
+
 ### Refreshing Queries
+
+By default, **ALL** queries in the model will refresh when one use the *Refresh* command from the **Home** tab
+
+From the Query Editor, uncheck **Include in report refresh** to exclude individual queries from the refresh
+
+{{<admonition success "Pro" false>}}
+Exclude queries that don't change often, like lookups or static data tables
+{{</admonition>}}
 
 ### Defining Data Categories
 
+From the **Modeling** tab in the **Data** view, one can edit field properties to define specific categories
+
+This is commonly used to help Power BI accurately map location-based fields like **addresses, countries, cities, latitude/longitude coordinates, zip codes**, etc.
+
 ### Defining Hierarchies
+
+Hierarchies are groups of nested columns that reflect multiple levels of granularity
+
+- For example, a **Geography** hierarchy might include **Country, State**, and **City** columns
+- Each hierarchy can be treated as a **single item** in tables and reports, allowing users to *drill up* and *drill down* through different levels of the hierarchy in a meaningful way.
 
 ### PRO TIP: Importing Models From Excel
 
